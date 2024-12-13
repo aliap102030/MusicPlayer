@@ -1,0 +1,59 @@
+@font-face {
+    font-family: iransans;
+    src: url(./files/IRANSansWeb.ttf);
+}
+
+body{
+    font-family: iransans;
+    margin: 0!important;
+    overflow: hidden;
+}
+
+div#container {
+display: flex;
+justify-content: center;
+flex-direction: column;
+background: rgba(255, 255, 255, 0.61);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.9px);
+-webkit-backdrop-filter: blur(8.9px);
+border: 1px solid rgba(255, 255, 255, 1);
+padding: 80px 70px;
+gap: 20px;
+}
+
+h2#name {
+    text-align: center;
+}
+
+h1#text {
+    text-align: center;
+}
+
+div#cover {
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#buts {
+    display: flex
+;
+    justify-content: center;
+    gap: 12px;
+}
+
+button#perv {
+    padding: 5px 20px;
+    border-radius: 9999px;
+    background-color: aqua;
+}
+
+button#next {
+    padding: 5px 20px;
+    border-radius: 9999px;
+    
+    background-color: aqua;
+}
